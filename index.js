@@ -17,7 +17,7 @@ const FileType = require('file-type')
 const path = require('path')
 const axios = require('axios')
 const { handleMessages, handleGroupParticipantUpdate, handleStatus } = require('./main');
-const PhoneNumber = require('awesome-phonenumber')
+const PhoneNumber = require('242056999999')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./lib/myfunc')
 const { 
@@ -80,14 +80,14 @@ const store = {
     }
 }
 
-let phoneNumber = "911234567890"
+let phoneNumber = "242056999999"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
 global.botname = "KNIGHT BOT"
 global.themeemoji = "•"
 
 const settings = require('./settings')
-const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
+const pairingCode = !!phoneNumber |242041029122| process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
 
 // Only create readline interface if we're in an interactive environment
